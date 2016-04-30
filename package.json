@@ -10,7 +10,8 @@
     "travis": "npm run coveralls",
     "prepublish": "npm run build",
     "coverage": "NODE_ENV=production babel src/components --out-dir lib && ./node_modules/.bin/babel-node ./node_modules/.bin/istanbul cover --dir cov ./test/index.js",
-    "coveralls": "npm run coverage && ./node_modules/.bin/coveralls < cov/lcov.info && ./node_modules/.bin/rimraf ./cov"
+    "coveralls": "npm run coverage && ./node_modules/.bin/coveralls < cov/lcov.info && ./node_modules/.bin/rimraf ./cov",
+    "clean": "./node_modules/.bin/rimraf build cov lib"
   },
   "repository": {
     "type": "git",
