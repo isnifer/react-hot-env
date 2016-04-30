@@ -32,5 +32,5 @@ npm start
 
 
 
-![WTFPL](http://www.wtfpl.net/wp-content/uploads/2012/12/wtfpl-badge-1.png) © [Anton Kuznetsov](http://github.com/isnifer)
+WTFPL © [Anton Kuznetsov](http://github.com/isnifer)
 
