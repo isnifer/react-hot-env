@@ -45,7 +45,7 @@ module.exports = {
     entry: entry,
     plugins: plugins,
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname, 'build'),
         filename: 'index.js',
         publicPath: '/build/'
     },
