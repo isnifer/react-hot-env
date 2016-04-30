@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/isnifer/react-hot-env#readme",
   "devDependencies": {
+    "autoprefixer": "^6.3.6",
     "babel-core": "^6.7.7",
     "babel-eslint": "^6.0.4",
     "babel-loader": "^6.2.4",
@@ -43,6 +44,7 @@
     "express": "^4.13.4",
     "less": "^2.6.1",
     "less-loader": "^2.2.3",
+    "postcss-loader": "^0.9.1",
     "react-transform-hmr": "^1.0.4",
     "style-loader": "^0.13.1",
     "webpack": "^1.13.0",
@@ -50,6 +52,7 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "dependencies": {
+    "normalize.css": "^4.1.1",
     "react": "^15.0.2",
     "react-dom": "^15.0.2"
   }

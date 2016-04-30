@@ -1,3 +1,4 @@
+import '../less/_main.less';
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 

@@ -1,5 +1,6 @@
 var path = require('path');
 var webpack = require('webpack');
+var autoprefixer = require('autoprefixer');
 
 
 var ENV = process.env;
@@ -52,8 +53,12 @@ module.exports = {
     module: {
         loaders: [
             {test: /\.jsx?$/, loaders: ['babel'], include: path.join(__dirname, 'src')},
-            {test: /\.scss$/, loaders: ['style', 'css', 'less'], include: path.join(__dirname, 'less')}
+            {test: /\.less$/, loaders: ['style', 'css', 'postcss', 'less'], include: path.join(__dirname, 'less')},
+            {test: /\.css$/, loaders: ['style', 'css', 'postcss']},
         ]
     },
-    resolve: ['', 'js', 'jsx', 'sass']
+    resolve: ['', 'js', 'jsx', 'less'],
+    postcss: function() {
+        return [autoprefixer({browsers: ['last 2 versions']})];
+    },
 };
