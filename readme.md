@@ -1,6 +1,6 @@
 ## react-hot-env
 
-[![Build Status](https://travis-ci.org/isnifer/react-hot-env.svg?branch=master)](https://travis-ci.org/isnifer/react-hot-env)[![Coverage Status](https://coveralls.io/repos/github/isnifer/react-hot-env/badge.svg?branch=master)](https://coveralls.io/github/isnifer/react-hot-env?branch=master)
+[![Build Status](https://travis-ci.org/isnifer/react-hot-env.svg?branch=master)](https://travis-ci.org/isnifer/react-hot-env) [![Coverage Status](https://coveralls.io/repos/github/isnifer/react-hot-env/badge.svg?branch=master)](https://coveralls.io/github/isnifer/react-hot-env?branch=master)
 
 A boilerplate as simple as possible. And it works!
 
