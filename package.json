@@ -4,7 +4,7 @@
   "description": "A boilerplate as simple as possible. And it works!",
   "main": "index.js",
   "scripts": {
-    "test": "NODE_ENV=production ./node_modules/.bin/babel-node ./test/index.js | tap-spec",
+    "test": "NODE_ENV=production babel src/components --out-dir lib && ./node_modules/.bin/babel-node ./test/index.js | tap-spec",
     "start": "NODE_ENV=development node server.js",
     "build": "./node_modules/.bin/rimraf build && NODE_ENV=production ./node_modules/.bin/webpack",
     "travis": "npm run coveralls",
