@@ -5,7 +5,7 @@ A boilerplate as simple as possible. And it works!
 * Clone repo
 
 ```sh
-git clone git@github.com:isnifer/react-hot-env.gitGo to folder
+git clone git@github.com:isnifer/react-hot-env.git
 ```
 
 * Go to folder
