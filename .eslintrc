@@ -1,0 +1,28 @@
+{
+    extends: "airbnb",
+    root: true,
+    env: {
+        es6: true,
+        browser: true,
+        node: true,
+    },
+    parser: 'babel-eslint',
+    parserOptions: {
+        ecmaVersion: 7,
+        sourceType: 'module'
+    },
+    "rules": {
+        "func-names": 0,
+        "indent": [{"SwitchCase": 1}],
+        "object-curly-spacing": 0,
+        "max-len": [2, 120, 4],
+        "consistent-return": 0,
+        "react/jsx-indent-props": [2, 4],
+        "react/jsx-closing-bracket-location": [1, {
+            "nonEmpty": "after-props",
+            "selfClosing": "tag-aligned"
+        }],
+        "react/prop-types": 0,
+        "react/no-multi-comp": 0
+    },
+}
